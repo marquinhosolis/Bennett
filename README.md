@@ -1,4 +1,4 @@
-# Bennett Isurances & Employee Benefits
+# Bennett Isurance & Employee Benefits
 
 Different Perspective - <a href="https://dppad.com/"> dppad.com</a>
 
