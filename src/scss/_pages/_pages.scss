@@ -1,0 +1,19 @@
+@import "page-home";
+@import "page-404";
+@import "page-about";
+@import "page-contact";
+@import "page-individual-insurance";
+@import "page-employee-benefits";
+
+.singlePage {
+    min-height: calc(100% - 250px);
+    .singlePageCover {
+        padding-top: 120px;
+        background: #00353d;
+        color: #fff;
+        font-family: nazare, sans-serif;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

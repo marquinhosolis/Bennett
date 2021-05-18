@@ -1,0 +1,162 @@
+.coverContact {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 50px;
+    .container {
+        .coverHomeImage {
+            position: relative;
+            @media (min-width: 768px) {
+                margin-right: -10%;
+            }
+        }
+        @media (min-width: 768px) {
+            flex-direction: row-reverse;
+        }
+    }
+
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.formSectionWrapper {
+    position: relative;
+    z-index: 2;
+    top: -50px;
+    .container {
+        @media (min-width: 768px) {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+    }
+    .formWrapper {
+        background: #fff;
+        padding: 40px 20px;
+        border-radius: 5px;
+        box-shadow: 0 8px 16px rgba(55, 55, 55, 0.06);
+        fieldset {
+            padding: 0;
+            border: 0;
+            color: #1e3640;
+            font-size: 14px;
+            .frm_fields_container {
+                display: block;
+            }
+            #frm_field_6_container {
+                margin-bottom: 20px;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"] {
+                width: 100%;
+                border: 1px solid #c0c5c6;
+                border-radius: 11px;
+                padding: 12px 20px;
+                margin-bottom: 12px;
+            }
+            #frm_field_7_container,
+            #frm_field_8_container,
+            #frm_field_9_container,
+            #frm_field_10_container {
+                @media (min-width: 768px) {
+                    width: 48%;
+                    float: left;
+                    &:nth-child(2n + 1) {
+                        margin-right: 2%;
+                    }
+                }
+            }
+            textarea {
+                width: 100%;
+                margin-top: 10px;
+                font-family: degular-text, sans-serif;
+                border-radius: 11px;
+                padding: 12px 20px;
+                border: 1px solid #c0c5c6;
+            }
+            #frm_field_11_container,
+            #frm_field_13_container {
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+                padding-top: 20px;
+                .frm_primary_label {
+                    order: 1;
+                }
+                .frm_opt_container {
+                    order: 3;
+                }
+                .frm_description {
+                    order: 2;
+                    margin-bottom: 15px;
+                }
+            }
+            .frm_primary_label {
+                font-size: 16px;
+                font-weight: 700;
+                font-family: nazare, sans-serif;
+            }
+            .frm_submit {
+                text-align: center;
+                margin-top: 20px;
+                .btn {
+                    border: 0;
+                    font-family: degular-text, sans-serif;
+                }
+                @media (min-width: 768px) {
+                    text-align: right;
+                }
+            }
+        }
+        @media (min-width: 768px) {
+            width: 68%;
+        }
+        @media (min-width: 1024px) {
+            padding: 50px;
+        }
+    }
+    address {
+        position: relative;
+        border-radius: 11px;
+        background-color: #e3f5f0;
+        padding: 25px;
+        color: #1e3640;
+        font-size: 14px;
+        font-style: normal;
+        .socialMedia {
+            margin-bottom: 25px;
+            a {
+                margin: 0 2px;
+                display: inline-block;
+                color: #59d198;
+                font-size: 24px;
+            }
+        }
+        .address,
+        .phone {
+            a {
+                display: block;
+                color: inherit;
+                text-decoration: none;
+                margin-bottom: 15px;
+            }
+        }
+        &:after {
+            content: url(../images/diamond.png);
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 20px;
+            transform: translate(0, -50%);
+        }
+        @media (min-width: 768px) {
+            width: 28%;
+        }
+    }
+    @media (min-width: 768px) {
+        top: -100px;
+    }
+}
